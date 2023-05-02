@@ -1,0 +1,39 @@
+@import "animate.css";
+
+@font-face {
+  font-family: "Lobster Regular";
+  src: url("./assets/Fonts/Lobster/Lobster-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./assets/Fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./assets/Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Roboto Italic";
+  src: url("./assets/Fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf");
+}
+
+input,
+textarea {
+  font-family: "Roboto Condensed";
+}
+
+.copy-right {
+  margin-top: 5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: var(--accent-1);
+}
+
+#copy {
+  font-size: larger;
+}
